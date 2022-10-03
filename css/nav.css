@@ -1,0 +1,32 @@
+
+        body {
+            background-image: url(../img/rick-y-morty-en-el-espacio_3840x2160_xtrafondos.com.jpg);
+            background-size:100vw ;
+            /* background-repeat: no-repeat; */
+            background-attachment:fixed
+        }
+
+        body::-webkit-scrollbar {
+            background-color: rgb(149, 225, 190);
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: #220343;
+        }
+
+        .btn{
+            color: rgb(198, 171, 171);
+            background: #8E2DE2;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #077072, #4547c7);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #0a5b6f, #302de2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        .btn:hover{
+            color: rgb(249, 249, 249);
+            border: none;
+            
+        }
+    .form-buttom-2{
+        background-color: aqua;
+        color:rgb(0, 0, 0);
+    }
